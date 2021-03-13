@@ -2,16 +2,16 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil
+package vclutil
 
 import (
 	"bytes"
 	"errors"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcutil/base58"
+	"github.com/John-Tonny/vcld/btcec"
+	"github.com/John-Tonny/vcld/chaincfg"
+	"github.com/John-Tonny/vcld/chaincfg/chainhash"
+	"github.com/John-Tonny/vclsuite_vclutil/base58"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

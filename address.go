@@ -2,7 +2,7 @@
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcutil
+package vclutil
 
 import (
 	"bytes"
@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcutil/base58"
-	"github.com/btcsuite/btcutil/bech32"
+	"github.com/John-Tonny/vcld/btcec"
+	"github.com/John-Tonny/vcld/chaincfg"
+	"github.com/John-Tonny/vclsuite_vclutil/base58"
+	"github.com/John-Tonny/vclsuite_vclutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 
