@@ -11,8 +11,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/John-Tonny/vcld/chaincfg/chainhash"
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg/chainhash"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 )
 
 // InPlaceSort modifies the passed transaction inputs and outputs to be sorted

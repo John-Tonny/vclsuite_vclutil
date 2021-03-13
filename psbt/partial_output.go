@@ -5,7 +5,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 )
 
 // POutput is a struct encapsulating all the data that can be attached

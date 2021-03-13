@@ -14,7 +14,7 @@ import (
 
 	"io"
 
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 )
 
 // psbtMagicLength is the length of the magic bytes used to signal the start of

@@ -8,9 +8,9 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/John-Tonny/vcld/btcec"
-	"github.com/John-Tonny/vcld/chaincfg"
-	"github.com/John-Tonny/vcld/chaincfg/chainhash"
+	"github.com/John-Tonny/vclsuite_vcld/btcec"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg/chainhash"
 	"github.com/John-Tonny/vclsuite_vclutil/base58"
 )
 

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/John-Tonny/vcld/btcec"
-	"github.com/John-Tonny/vcld/chaincfg"
-	"github.com/John-Tonny/vcld/chaincfg/chainhash"
+	"github.com/John-Tonny/vclsuite_vcld/btcec"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg/chainhash"
 	vclutil "github.com/John-Tonny/vclsuite_vclutil"
 	"github.com/John-Tonny/vclsuite_vclutil/base58"
 )
@@ -475,7 +475,7 @@ func (k *ExtendedKey) Neuter() (*ExtendedKey, error) {
 func (k *ExtendedKey) CloneWithVersion(version []byte) (*ExtendedKey, error) {
 	if len(version) != 4 {
 		// TODO: The semantically correct error to return here is
-		//  ErrInvalidHDKeyID (introduced in John-Tonny/vcld#1617). Update the
+		//  ErrInvalidHDKeyID (introduced in John-Tonny/vclsuite_vcld#1617). Update the
 		//  error type once available in a stable btcd / chaincfg release.
 		return nil, chaincfg.ErrUnknownHDKeyID
 	}

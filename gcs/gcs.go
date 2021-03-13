@@ -11,7 +11,7 @@ import (
 	"io"
 	"sort"
 
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 	"github.com/aead/siphash"
 	"github.com/kkdai/bstream"
 )

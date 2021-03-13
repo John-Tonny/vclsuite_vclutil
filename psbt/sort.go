@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/John-Tonny/vcld/chaincfg/chainhash"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg/chainhash"
 )
 
 // InPlaceSort modifies the passed packet's wire TX inputs and outputs to be

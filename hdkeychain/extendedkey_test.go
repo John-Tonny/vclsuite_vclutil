@@ -17,7 +17,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/John-Tonny/vcld/chaincfg"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg"
 )
 
 // TestBIP0032Vectors tests the vectors provided by [BIP32] to ensure the

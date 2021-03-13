@@ -14,8 +14,8 @@ import (
 	"bytes"
 	"crypto/sha256"
 
-	"github.com/John-Tonny/vcld/txscript"
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/txscript"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 	vclutil "github.com/John-Tonny/vclsuite_vclutil"
 )
 

@@ -12,8 +12,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/John-Tonny/vcld/txscript"
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/txscript"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 )
 
 // WriteTxWitness is a utility function due to non-exported witness

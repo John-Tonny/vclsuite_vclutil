@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/John-Tonny/vcld/chaincfg/chainhash"
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg/chainhash"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 	vclutil "github.com/John-Tonny/vclsuite_vclutil"
 	"github.com/davecgh/go-spew/spew"
 )

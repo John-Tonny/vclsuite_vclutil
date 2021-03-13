@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/John-Tonny/vcld/chaincfg/chainhash"
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg/chainhash"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 )
 
 func TestSumUtxoInputValues(t *testing.T) {

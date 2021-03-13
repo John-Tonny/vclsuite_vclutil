@@ -12,8 +12,8 @@ package psbt
 import (
 	"bytes"
 
-	"github.com/John-Tonny/vcld/txscript"
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/txscript"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 )
 
 // Extract takes a finalized psbt.Packet and outputs a finalized transaction

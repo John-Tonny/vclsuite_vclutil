@@ -9,9 +9,9 @@ import (
 	"math"
 	"sync"
 
-	"github.com/John-Tonny/vcld/chaincfg/chainhash"
-	"github.com/John-Tonny/vcld/txscript"
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg/chainhash"
+	"github.com/John-Tonny/vclsuite_vcld/txscript"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 	vclutil "github.com/John-Tonny/vclsuite_vclutil"
 )
 

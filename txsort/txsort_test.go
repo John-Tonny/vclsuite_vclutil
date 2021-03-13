@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 	"github.com/John-Tonny/vclsuite_vclutil/txsort"
 )
 

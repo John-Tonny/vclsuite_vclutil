@@ -5,7 +5,7 @@
 package psbt
 
 import (
-	"github.com/John-Tonny/vcld/wire"
+	"github.com/John-Tonny/vclsuite_vcld/wire"
 )
 
 // MinTxVersion is the lowest transaction version that we'll permit.

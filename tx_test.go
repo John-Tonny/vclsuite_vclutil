@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/John-Tonny/vcld/chaincfg/chainhash"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg/chainhash"
 	vclutil "github.com/John-Tonny/vclsuite_vclutil"
 	"github.com/davecgh/go-spew/spew"
 )
@@ -102,7 +102,7 @@ func TestTxHasWitness(t *testing.T) {
 	tx := vclutil.NewTx(msgTx)
 
 	tx.WitnessHash() // Populate the witness hash cache
-	tx.HasWitness()  // Should not fail (see John-Tonny/vcld#1543)
+	tx.HasWitness()  // Should not fail (see John-Tonny/vclsuite_vcld#1543)
 
 	if !tx.HasWitness() {
 		t.Errorf("HasWitness: got false, want true")

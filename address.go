@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/John-Tonny/vcld/btcec"
-	"github.com/John-Tonny/vcld/chaincfg"
+	"github.com/John-Tonny/vclsuite_vcld/btcec"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg"
 	"github.com/John-Tonny/vclsuite_vclutil/base58"
 	"github.com/John-Tonny/vclsuite_vclutil/bech32"
 	"golang.org/x/crypto/ripemd160"

@@ -7,7 +7,7 @@ package hdkeychain_test
 import (
 	"fmt"
 
-	"github.com/John-Tonny/vcld/chaincfg"
+	"github.com/John-Tonny/vclsuite_vcld/chaincfg"
 	"github.com/John-Tonny/vclsuite_vclutil/hdkeychain"
 )
 
