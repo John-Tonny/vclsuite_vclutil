@@ -1,4 +1,4 @@
-module vclsuite_vclutil
+module github.com/John-Tonny/vclsuite_vclutil
 
 go 1.15
 
